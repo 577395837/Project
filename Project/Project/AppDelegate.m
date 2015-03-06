@@ -19,7 +19,7 @@
 {
     
     NSLog(@"login");
-    
+    NSLog(@"login2");
     
     return YES;
 }
