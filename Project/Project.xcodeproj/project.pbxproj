@@ -14,6 +14,7 @@
 		ACCA75B91AA934F900F766C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACCA75B81AA934F900F766C5 /* Images.xcassets */; };
 		ACCA75BC1AA934F900F766C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACCA75BA1AA934F900F766C5 /* LaunchScreen.xib */; };
 		ACCA75C81AA934F900F766C5 /* ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCA75C71AA934F900F766C5 /* ProjectTests.m */; };
+		ACCA75D31AA93F3C00F766C5 /* WBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCA75D21AA93F3C00F766C5 /* WBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		ACCA75C11AA934F900F766C5 /* ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACCA75C61AA934F900F766C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACCA75C71AA934F900F766C5 /* ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTests.m; sourceTree = "<group>"; };
+		ACCA75D11AA93F3C00F766C5 /* WBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBViewController.h; sourceTree = "<group>"; };
+		ACCA75D21AA93F3C00F766C5 /* WBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				ACCA75B01AA934F900F766C5 /* AppDelegate.m */,
 				ACCA75B21AA934F900F766C5 /* ViewController.h */,
 				ACCA75B31AA934F900F766C5 /* ViewController.m */,
+				ACCA75D11AA93F3C00F766C5 /* WBViewController.h */,
+				ACCA75D21AA93F3C00F766C5 /* WBViewController.m */,
 				ACCA75B51AA934F900F766C5 /* Main.storyboard */,
 				ACCA75B81AA934F900F766C5 /* Images.xcassets */,
 				ACCA75BA1AA934F900F766C5 /* LaunchScreen.xib */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACCA75B41AA934F900F766C5 /* ViewController.m in Sources */,
+				ACCA75D31AA93F3C00F766C5 /* WBViewController.m in Sources */,
 				ACCA75B11AA934F900F766C5 /* AppDelegate.m in Sources */,
 				ACCA75AE1AA934F900F766C5 /* main.m in Sources */,
 			);
